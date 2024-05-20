@@ -28,7 +28,7 @@ The raw dataset used for training and testing the model is available on Kaggle. 
 
 
 ## Model Architecture
-The model architecture used for this classification task is a type of feedforward neural network known as a multi-layer perceptron (MLP). It employs a Sequential model consisting of dense layers for feature extraction and classification. The model is compiled with the Adam optimizer and categorical cross-entropy loss function for training.
+The model architecture used for this classification task is a type of feedforward neural network known as a multi-layer perceptron (MLP). It employs a Sequential model consisting of dense layers for feature extraction and classification. Additionally, there is another architecture used, a convolutional neural network (CNN), which is implemented using the Keras Functional API rather than the Sequential model.The model is compiled with the Adam optimizer and categorical cross-entropy loss function for training.
 
 ## Performance
 While the current accuracy results may not meet expectations, there is still room for improvement. The model's performance can be enhanced through further optimization techniques and adjustments in the training process. Contributions and suggestions for improvement are welcome.
