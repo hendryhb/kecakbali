@@ -24,11 +24,11 @@ This repository contains a Deep Learning model for classifying Batik Nusantara (
 20. 'Yogyakarta Parang'
 
 ## Dataset
-The raw dataset used for training and testing the model is available on Kaggle. The following is the [link](https://www.kaggle.com/datasets/hendryhb/batik-nusantara-batik-indonesia-dataset). The dataset is divided into training and testing sets, in .jpg format and 224 x 224 pixels.
+The raw dataset used for training and testing the model is available on Kaggle. The following is the [link](https://www.kaggle.com/datasets/hendryhb/batik-nusantara-batik-indonesia-dataset). The dataset is divided into training and testing sets, in .jpg format and 224 x 224 pixels. Appreciate for visiting the abovementioned link which includes samples of h5 files used for trained weights.
 
 
 ## Model Architecture
-The model architecture used for this classification task is a type of feedforward neural network known as a multi-layer perceptron (MLP). It employs a Sequential model consisting of dense layers for feature extraction and classification. Additionally, there is another architecture used, a convolutional neural network (CNN), which is implemented using the Keras Functional API rather than the Sequential model.The model is compiled with the Adam optimizer and categorical cross-entropy loss function for training.
+The model architecture used for this classification task are: VGG16, ResNet50, Xception, MobileNetV2, along with Content-Based Image Retrieval (CBIR), Random Forest, a CNN architecture, and modeling, in addition to the MLP which employs a Sequential model consisting of dense layers for feature extraction and classification .The model is compiled with the Adam optimizer and categorical cross-entropy loss function for training.
 
 ## Performance
 While the current accuracy results may not meet expectations, there is still room for improvement. The model's performance can be enhanced through further optimization techniques and adjustments in the training process. Contributions and suggestions for improvement are welcome.
